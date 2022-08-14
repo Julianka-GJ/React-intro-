@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 20px;
+    box-shadow: 0 8px 16px 2px rgba(0,0,0,0.4);
+    border-radius: 12px;
+}
+
+.content-text {
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 42px;
+    }
+
+    p {
+        margin-bottom: 50px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+.content-img {
+    background-color: #CCF0E6;
+    border-radius: 120px;
+    width: 60%;
+
+    img {
+        width: 95%;
+    }
+}

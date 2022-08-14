@@ -1,0 +1,25 @@
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: flex-end;
+    box-shadow: 0 8px 16px 4px rgba(0,0,0,0.4);
+    border-radius: 12px;
+    padding: 15px;
+
+    h3 {
+        text-align: center;
+        margin: 10px;
+        color: #58A9A5;
+        font-size: 35px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    button {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+}

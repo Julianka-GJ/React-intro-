@@ -1,0 +1,35 @@
+.wrapper {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  width: 70%;
+}
+.header-menu a {
+  text-decoration: none;
+  color: #404242;
+  font-size: 25px;
+  transition-duration: 1s;
+}
+.header-menu a:hover {
+  color: #58A9A5;
+}
+
+.content-main {
+  display: flex;
+  justify-content: space-between;
+}
